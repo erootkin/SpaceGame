@@ -7,7 +7,17 @@ img {
     width: 450px;
 }
 .background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+      position: absolute;
+  top: 0px;
+  left: 0px;
+      height: 100%;
+      width: 100%;
+  z-dinex: 1;
+}
+#time {
+      color: white;
+      position: abosolute;
+      top: 10px;
+      left: 10 px:
+z-index: 2;
 }
