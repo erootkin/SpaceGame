@@ -16,7 +16,7 @@ img {
 }
 #time {
       color: white;
-      position: abosolute;
+      position: absolute;
       top: 10px;
       left: 10 px:
 z-index: 2;
