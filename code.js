@@ -24,8 +24,9 @@ var score = 0;
    }
  }
 
-function setPosition(element, x, y, w, h){
-          element.style.position = 'absolute';
+function setPosition(el, x, y, w, h){
+          var element=document.getElementById(el);
+	element.style.position = 'absolute';
 					element.style.left = x + 'px';
 					element.style.top = y + 'px';
 					element.style.width = w + 'px';
